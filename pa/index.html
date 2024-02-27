@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="index.css">
+ <link href="https://db.onlinewebfonts.com/c/016f50054d487d421dc18257a191a3ad?family=Noteworthy+Light" rel="hoja de estilo">
+</head>
+</head>
+
+<body>
+    <header>
+    <div class="header-section container">
+        <div  class="logo">
+             <img class="fto"    src="./img1-removebg-preview.png"  alt="" height="193px" >
+                <img onclick="abrirv(this)" class="cart" src="./img/3144456.png", alt="">
+                <span id="contador-carrito" class="badge badge-pill badge-danger">0</span>
+               
+
+        </div>
+    <div class="container">
+        <div class="row">
+        
+            <main id="items" ></main>
+           
+               
+                   <div class="cart-products" id="products-id">
+                    <p class="close-btn" onclick="cerrarv()">X</p>
+                    <h3> CARRITO</h3>
+              
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+             
+             
+                <p class="text-right">Total: <span id="total"></span>$</p>
+                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+            </aside>
+        </div>
+    </div>
+</header>
+<div class="slo">
+    <h1>PRODUCTOS</h1>
+</div>
+    <script>
+        function abrirv(x){
+            document.getElementById("products-id").style.display = "block";
+        }
+        function cerrarv(){
+             document.getElementById("products-id").style.display = "none";
+        }
+    
+    </script>
+</body>
+<script src="index.js"></script>
+</html>

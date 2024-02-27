@@ -1,0 +1,240 @@
+
+@font-face{
+    font-family: "Noteworthy Light";
+    src: url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot");
+    src: url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.svg#Noteworthy Light")format("svg");
+  
+}
+@font-face {
+    font-family: "Amplitude-Regular";
+    src: url("https://db.onlinewebfonts.com/t/38a8e38d23135318aca19fd5cff8e67f.eot");
+    src: url("https://db.onlinewebfonts.com/t/38a8e38d23135318aca19fd5cff8e67f.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/38a8e38d23135318aca19fd5cff8e67f.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/38a8e38d23135318aca19fd5cff8e67f.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/38a8e38d23135318aca19fd5cff8e67f.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/38a8e38d23135318aca19fd5cff8e67f.svg#Amplitude-Regular")format("svg");
+}
+
+
+
+
+body{
+    margin: 0%;
+}
+
+
+
+.cart{
+    width: 39px;
+    height: 35px;
+position: absolute;
+left: 87%;
+top: 15%;
+
+
+}
+.container{
+   
+    text-align: center;
+    margin: auto;
+  
+    
+}
+
+.fto{
+    margin-left: -700px;
+    width: auto;  
+}
+
+
+header{
+    background-color:#637A9F;
+height: 195px;
+width: 100%;
+    }
+
+.slo
+{
+        width: 99.9%;
+        background-color: #FFF3CF;
+        box-shadow: 0 0 20px #E8C872;
+        margin-top: -20px;
+        height: 45px;
+    }
+.slo h1{
+        text-align: center;
+        font-family: "Noteworthy Light";
+        
+    }
+  
+    .btn-primary{
+        font-family: "Amplitude-Regular";
+        text-decoration: none;
+    
+        padding: 9px 23px;
+        color: black;
+        font-size: 17px;
+        text-transform: uppercase;
+        background-color: #FFF3CF;
+        box-shadow: 0 0 20px #637A9F;
+        border-radius: 10px;
+        font-weight: 700;
+      
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 10px;
+        place-items: center;
+        justify-items: center;
+    }
+    button.btn.btn-danger.mx-5{
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 0 20px #637A9F;
+        border-radius: 10px;
+        font-weight: 700;
+        background-color: #FFF3CF;
+    }
+    button#boton-vaciar{
+        box-shadow: 0 0 20px #637A9F;
+        border-radius: 10px;
+        font-weight: 700;
+        background-color: #FFF3CF;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 9px 23px;
+    }
+
+    .btn:hover{
+        background: #fff;
+        color: black;
+        border: solid 2px #E8C872;
+        transition-duration: .3s;
+    }
+    
+
+.logo{
+    width: 310px;
+    height: 175px;
+    background-image: url(./image-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 490px auto;
+    margin-left: 33%;
+    width: 70ch;
+}
+
+#items{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+    padding: 4em;
+    margin-top: 70px;
+    gap: 30px;
+    width: auto;
+background-color: #E8C872;
+   
+}
+.img-fluid{
+    width: 60%;
+}
+.card-descripcion{
+    margin: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Amplitude-Regular";
+  
+   
+}
+.card-title{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Noteworthy Light";
+    justify-content: space-between;
+   
+}
+.card-text{
+
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Amplitude-Regular";
+}
+
+.card-body{
+    
+     box-shadow: 0 0 7px black;
+     background-color: #C9D7DD;
+     transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+     flex-wrap: wrap;
+     padding: 1em;
+     margin-top: 20px;
+     border-radius: 10px 40px;
+}
+.card-body:hover{
+    transform: translateY(-10px);
+    box-shadow: 1.25px 1.25px 10px #FFF3CF;
+}
+
+.cart-products{
+    position: absolute;
+    top: 82px;
+    right: 1px;
+    background-color:#C9D7DD;
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    display: none;
+    z-index: 50;
+    min-width: 290px;
+ 
+}
+li.list-group-item.text-right.mx-2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Noteworthy Light";
+    
+}
+#carrito{
+    overflow-y: scroll;
+    height: 200px;
+}
+
+#contador-carrito {
+    position: absolute;
+    left: 88%;
+    top: 12%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: "Noteworthy Light";
+    line-height: 18px;
+    padding: 1px 6px;
+    border-radius: 50%;
+  }
+  @media screen and (max-width: 768px) {
+    .logo {
+        padding: 10px;
+    }
+
+    #items {
+        padding: 2em;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .cart-products {
+        padding: 10px;
+    }
+
+    li.list-group-item.text-right.mx-2 {
+        font-size: 16px;
+    }
+
+    #contador-carrito {
+        font-size: 12px;
+    }
+}
